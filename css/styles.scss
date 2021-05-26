@@ -1,2 +1,122 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+
+  background: rgb(12, 179, 248);
+
+
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    padding-top: 60px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    color: rgb(36, 37, 38);
+  }
+
+  h3 {
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(36, 37, 38);
+    text-align: center;
+  }
+
+
+  p {
+    font-size: 12px;
+    color: rgb(36, 37, 38);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: left;
+  }
+
+  a {
+    color: rgb(36, 37, 38);
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .navbar {
+    background: rgb(12, 179, 248);
+  }
+
+  .navbar-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .navbar li a {
+      color: #fff;
+      font-weight: 700;
+      font-size: 12px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  img#iphone {
+
+  }
+
+  .row {
+    // background: rgb(12, 179, 248);
+
+    .hero-image {
+      background: rgb(12, 179, 248);
+    }
+
+    .bar {
+      background: white;
+    }
+
+    .content {
+      background: rgb(245, 244, 244);
+    }
+
+    .subscribe {
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../images/cliffs.png");
+      max-width: 100%;
+      height: auto;
+     //width: 100%;
+    }
+
+    .iphone {
+      padding-right: 30px;
+    }
+
+    .price {
+      background: white;
+      border-radius: 5px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      &.alt {
+        background: blue;
+      }
+    }
+  }
 }

@@ -1,0 +1,74 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0cb3f8; }
+  body h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    padding-top: 60px; }
+  body h2 {
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    color: #242526; }
+  body h3 {
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    text-align: center; }
+  body h4 {
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px; }
+  body h5 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #242526;
+    text-align: center; }
+  body p {
+    font-size: 12px;
+    color: #242526;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: left; }
+  body a {
+    color: #242526;
+    font-weight: 700;
+    font-size: 12px; }
+  body .navbar {
+    background: #0cb3f8; }
+  body .navbar-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 16px; }
+  body .navbar li a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px; }
+  body ul {
+    list-style-type: none; }
+  body .row .hero-image {
+    background: #0cb3f8; }
+  body .row .bar {
+    background: white; }
+  body .row .content {
+    background: #f5f4f4; }
+  body .row .subscribe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/cliffs.png");
+    max-width: 100%;
+    height: auto; }
+  body .row .iphone {
+    padding-right: 30px; }
+  body .row .price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+    body .row .price.alt {
+      background: blue; }
